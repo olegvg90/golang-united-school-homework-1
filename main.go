@@ -1,9 +1,11 @@
 package main
 
 import (
-	emoji "github.com/kyokomi/emoji"
+	"fmt"
+
+	"github.com/epam/golang-united-school-homework-1/solution"
 )
 
 func main() {
-	emoji.Println("Hello :world_map:!")
+	fmt.Print(solution.GetMessage())
 }
